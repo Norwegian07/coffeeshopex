@@ -17,7 +17,7 @@ h2{
 .navbar{
 border: solid 2px black;
 background-color: black;
-height: 80px;
+height: 100px;
 text-align: center;
 }
 .navbar a{
@@ -73,11 +73,9 @@ margin-top: 15px;
 }
 .week-specials{
     clear: both;
-    margin-left: 100px;
 }
 .weekspecial{
     border: solid 2px black;
-    width: 1000px;
     height: 400px;
 }
 
