@@ -49,11 +49,19 @@ margin-top: 15px;
 .menu1,.menu2,.menu3{
     float: left;
     border: solid 2px black;
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     padding-right: 100px;
     border: none;
 }
 .menubar-container{
     margin-left: 15px;
+}
+.menu4,.menu5,.menu6{
+    float: left;
+    border: solid 2px black;
+    height: 450px;
+    width: 350px;
+    padding-right: 100px;
+    border: none; 
 }
