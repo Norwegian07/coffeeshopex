@@ -77,6 +77,8 @@ margin-top: 15px;
 .weekspecial{
     border: solid 2px black;
     height: 400px;
+    width: 800px;
+    margin-left: 25px;
 }
 
 .cake{
