@@ -65,3 +65,35 @@ margin-top: 15px;
     padding-right: 100px;
     border: none; 
 }
+.week{
+    width: 450px;
+    height: 300px;
+    float: right;
+    position: relative;
+}
+.week-specials{
+    clear: both;
+    margin-left: 100px;
+}
+.weekspecial{
+    border: solid 2px black;
+    width: 1000px;
+    height: 400px;
+}
+
+.cake{
+    width: 300px;
+    height: 250px;
+   position: relative;
+}
+.todays-specials{
+    margin-top: 25px;
+}
+.specials1,.specials2,.specials3{
+    border: solid 2px black;
+    height: 500px;
+    width: 350px;
+    padding-right: 100px;
+    float: left;
+    border: none;
+}
