@@ -8,8 +8,12 @@ h2{
     font-size: 36px;
     border: solid 2px black;
     background-color: grey;
-    width: 350px;
-    margin-left: 550px;
+    width: 500px;
+    text-align: center;
+    clear: both;
+}
+.head2{
+    margin-left: 300px;
 }
 #nav{
     position: relative;
@@ -89,11 +93,38 @@ margin-top: 15px;
 .todays-specials{
     margin-top: 25px;
 }
-.specials1,.specials2,.specials3{
+.specials1,.specials2,.specials3,.specials4{
     border: solid 2px black;
     height: 500px;
     width: 350px;
     padding-right: 100px;
     float: left;
     border: none;
+}
+.coustomer-reviews{
+    clear: both;
+    position: relative;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#submit{
+    font-size: 20px;
+    margin-left: 300px;
+}
+/* ================footer================= */
+.social{
+    width: 45px;
+    height: 45px;
+    padding: 8.5px;
+}
+.footer{
+    background-color: grey;
+    height: 300px;
+    margin-top: 25px;
+    font-size: 22px;
+    text-align: center;
+}
+.footercontents{
+    padding-top: 70px;
 }
