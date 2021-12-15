@@ -13,7 +13,7 @@ h2{
     clear: both;
 }
 .head2{
-    margin-left: 300px;
+    margin-left: 250px;
 }
 #nav{
     position: relative;
@@ -119,7 +119,7 @@ margin-top: 15px;
     padding: 8.5px;
 }
 .footer{
-    background-color: grey;
+    background-color: black;
     height: 300px;
     margin-top: 25px;
     font-size: 22px;
@@ -127,4 +127,5 @@ margin-top: 15px;
 }
 .footercontents{
     padding-top: 70px;
+    color: white;
 }
