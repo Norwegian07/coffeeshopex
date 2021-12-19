@@ -4,6 +4,7 @@
         <title>
           coffeshop prototype
         </title>
+        <script src="jquery-3.5.1.min.js"></script>
         <link rel="stylesheet" href="coffee.css" type="text/css">
     </head>
     <body>
@@ -34,12 +35,23 @@
 <!-- nav bar ends here -->
 <!-- --------------------------------------------------------------------------------------- -->
 
+<!-- week - specials -->
+<h3 style="clear: both;">WEEK SPECIAL ARTICLE</h3>
+<div class="week-specials">
+    <div class="weekspecial">
+        <figure>
+            <b>WEEK SPECIAL EDISTION</b><BR>An affogato or more traditionally known as "affogato al caffe" is an Italian coffee-based dessert. It usually takes the form of a scoop of semisoft cheese-flavored or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso. Some variations also include a shot of amaretto, Bicerin, Kahlua, or other liqueur. <img class="week" src="https://dm2306files.storage.live.com/y4mLiVab4RGbUnaRNn3om6U-rat9HQ5H-XJgazXj6ELA4i6FKdoTcs5aCMaMndIIW2c34M1563rrG8vO8lOyojxVqF7V3fGl9c35i92T57bakJpjCOnb_f2dgvTWmXtjSCwLRCY8qStVA5AsS0AVf_j8XX7iPiRfHXeYTfUxJTfof652qAQQqcmiwrBd0L6qtf6?width=1920&height=1280&cropmode=none" alt="">
+        </figure> 
+    </div>
+</div>
+<!-- =================================week special ends here====================================== -->
+
 <!-- menubar -->
 <div class="head2">
 <h2>_OUR_MENU__!</h2>
 </div>
 <div class="menubar-container">
-    <div class="menu1">
+    <div class="menu1" id="menu">
         <figure>
             <img class="coffeimg" src="https://dm2306files.storage.live.com/y4m_W0pTn6ChlSw3Oc-4kVrmsxQwLth5MdCjWoGExURK6PtJ_tkMHcGXBlBggKDxAPVMreuLFQegZQcrJcbfEqDa425GETsh9IJGFMGkE1YHuxL8ku6v2VHA9dtY4hNKkisidLgGaGXwjDzAX9SFBYZd5OsiLn-oT7gA2NJ7e8qMM3lNEueR_AWsnHkF3-aEdzt?width=1920&height=1280&cropmode=none" alt="">Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9 to 10 bars of pressure through finely-ground coffee beans.
         </figure>
@@ -80,16 +92,6 @@
 
 <!-- ===================menu bar ends=================================================================================== -->
 
-<!-- week - specials -->
-<div class="week-specials">
-    <div class="weekspecial">
-        <span id="specials"></span>
-        <figure>
-            <b>WEEK SPECIAL EDISTION</b><BR>An affogato or more traditionally known as "affogato al caffe" is an Italian coffee-based dessert. It usually takes the form of a scoop of semisoft cheese-flavored or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso. Some variations also include a shot of amaretto, Bicerin, Kahlua, or other liqueur. <img class="week" src="https://dm2306files.storage.live.com/y4mLiVab4RGbUnaRNn3om6U-rat9HQ5H-XJgazXj6ELA4i6FKdoTcs5aCMaMndIIW2c34M1563rrG8vO8lOyojxVqF7V3fGl9c35i92T57bakJpjCOnb_f2dgvTWmXtjSCwLRCY8qStVA5AsS0AVf_j8XX7iPiRfHXeYTfUxJTfof652qAQQqcmiwrBd0L6qtf6?width=1920&height=1280&cropmode=none" alt="">
-        </figure> 
-    </div>
-</div>
-<!-- =================================week special ends here====================================== -->
 
 <!-- specials -->
 <div class="head2">
@@ -97,7 +99,7 @@
 </div>
 <div class="todays-specials">
 <div class="specials1">
-    <figure>
+    <figure id="specials">
         <img class="cake" src="https://dm2306files.storage.live.com/y4moHaLkYt09OZPRcgNJsXIedkTMokEaeyw3GQ0k33pfzUS1opLgvSL2WOYeQn3iBgC2LrvNnv6ZV6_P9JzDNPNhY9oUAcH91ericKeT7axq51dyx0JMnBKXnuo938-TVjEOYkoElj27oQeUl6cuufK7tC5Me2ywKElpG2e0coc14O-H5kzq2958o5TzKlutCMd?width=1280&height=788&cropmode=none" alt=""><b>Chocolate cake</b> or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both. Chocolate cake is made with chocolate. It can also include other ingredients. These include fudge, vanilla creme, and other sweeteners. The history of chocolate cake goes back to the 17th century, when cocoa powder from the Americas were added to traditional cake recipes.
     </figure>
     </div>
@@ -135,7 +137,7 @@
                         <br>
                         <label for="reviews">Review:</label><br>
                         <br>
-                        <textarea name="reviews" id="review" rows="7" cols="90" minlength="500">
+                        <textarea name="reviews" id="review" rows="7" cols="90">
                             </textarea>
                         <br>
                         <label for="submit"></label><br>

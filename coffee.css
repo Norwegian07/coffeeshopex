@@ -36,9 +36,6 @@ text-align: center;
 .navindex{
 margin-top: 15px;
 }
-.logo{
-    text-align: center;
-}
 .coffeelogo{
     width: 280px;
     height: 150px;
@@ -80,8 +77,10 @@ margin-top: 15px;
 }
 .weekspecial{
     border: solid 2px black;
-    height: 550px;
-    width: 900px;
+    /* height: 550px; */
+    /* width: 900px; */
+    width: 97%;
+    height: 450px;
     margin-left: 25px;
 }
 
