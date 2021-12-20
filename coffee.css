@@ -135,4 +135,6 @@ margin-top: 15px;
     zoom: 1.25;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
- 
+ @media screen {
+     
+ }
