@@ -24,9 +24,18 @@
 <div class="navbar" id="nav">
     <div class="navindex">
     <a href="index.html">||Home||</a>
-    <a href="#menu">||Menu||</a>
+    <!--  -->
+    <div class="dropdown">
+    <a class="dropdownbtn" href="#menu">||Menu||</a>
+    <div  class="dropdownmenu">
+        <a  href="#coffes">Coffee's</a>
+        <a href="#cakesandpastries">Cakes & pastries</a>
+        <a href="#others">Others</a>
+    </div>
+</div>
+<!--  -->
     <a href="#specials">||Specials||</a>
-    <a href="#reviews">||Reviews||</a>
+    <!-- <a href="#reviews">||Reviews||</a> -->
     <a href="#aboutus">||About Us||</a>
 </div>
 </div>
@@ -39,7 +48,9 @@
 <div class="week-specials">
     <div class="weekspecial">
         <figure>
-            <b>WEEK SPECIAL EDISTION</b><BR>An affogato or more traditionally known as "affogato al caffe" is an Italian coffee-based dessert. It usually takes the form of a scoop of semisoft cheese-flavored or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso. Some variations also include a shot of amaretto, Bicerin, Kahlua, or other liqueur. <img class="week" src="https://dm2306files.storage.live.com/y4mLiVab4RGbUnaRNn3om6U-rat9HQ5H-XJgazXj6ELA4i6FKdoTcs5aCMaMndIIW2c34M1563rrG8vO8lOyojxVqF7V3fGl9c35i92T57bakJpjCOnb_f2dgvTWmXtjSCwLRCY8qStVA5AsS0AVf_j8XX7iPiRfHXeYTfUxJTfof652qAQQqcmiwrBd0L6qtf6?width=1920&height=1280&cropmode=none" alt="">
+            <b>WEEK SPECIAL EDISTION</b><BR>An affogato or more traditionally known as "affogato al caffe" is an Italian coffee-based dessert. It usually takes the form of a scoop of semisoft cheese-flavored or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso. Some variations also include a shot of amaretto, Bicerin, Kahlua, or other liqueur. Paneer is an Indian cheese. Paneer is great source of protein for vegetarians in India. And a considerable number of the population are vegetarians due to religious reasons in India.
+
+                The name is of Persian origin and is believed to have been introduced into India in the sixteenth century, although there are records of paneer-style cheeses dating back as far as 6000 BC. <img class="week" src="https://dm2306files.storage.live.com/y4mLiVab4RGbUnaRNn3om6U-rat9HQ5H-XJgazXj6ELA4i6FKdoTcs5aCMaMndIIW2c34M1563rrG8vO8lOyojxVqF7V3fGl9c35i92T57bakJpjCOnb_f2dgvTWmXtjSCwLRCY8qStVA5AsS0AVf_j8XX7iPiRfHXeYTfUxJTfof652qAQQqcmiwrBd0L6qtf6?width=1920&height=1280&cropmode=none" alt=""> Paneer , also known as ponir (pronounced [po̯ni̯r]) or Indian cottage cheese, is a fresh acid-set cheese common in the Indian subcontinent (Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka) made from cow or buffalo milk. It is a non-aged, non-melting soft cheese made by curdling milk with a fruit- or vegetable-derived acid, such as lemon juice.
         </figure> 
     </div>
 </div>
@@ -49,7 +60,7 @@
 <div class="head2">
 <h2>_OUR_MENU__!</h2>
 </div>
-<div class="menubar-container">
+<div class="menubar-container" id="coffes">
     <div class="menu1" id="menu">
         <figure>
             <img class="coffeimg" src="https://dm2306files.storage.live.com/y4m_W0pTn6ChlSw3Oc-4kVrmsxQwLth5MdCjWoGExURK6PtJ_tkMHcGXBlBggKDxAPVMreuLFQegZQcrJcbfEqDa425GETsh9IJGFMGkE1YHuxL8ku6v2VHA9dtY4hNKkisidLgGaGXwjDzAX9SFBYZd5OsiLn-oT7gA2NJ7e8qMM3lNEueR_AWsnHkF3-aEdzt?width=1920&height=1280&cropmode=none" alt="">Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9 to 10 bars of pressure through finely-ground coffee beans.
@@ -94,8 +105,8 @@
 
 <!-- specials -->
 <div class="head2">
-<h2 >OUR__SPECIALS</h2>
-</div>
+<h2 id="cakesandpastries" >OUR__SPECIALS</h2>
+</div >
 <div class="todays-specials">
 <div class="specials1">
     <figure id="specials">
@@ -124,30 +135,21 @@
                 <!-- ------------------------------------- -->
                 <!-- =======================================================end specials================================================================ -->
                 <!-- reviwes -->
-                <div id="reviews-show">
-                    
-                </div>
-                <div class="head2">
+                <!-- <div class="head2">
                 <h2 id="reviews">COUSTOMER__REVIEWS</h2>
                 </div>
-                <div class="coustomer-reviews">
-                    <div class="reviews">
-                        <form action="">
-                            <label for="name">Name:</label><br>
-                            <br>
-                        <input type="text" id="name" name="name" maxlength="25"><br>
-                        <br>
-                        <label for="reviews">Review:</label><br>
-                        <br>
-                        <textarea name="reviews" id="review" rows="7" cols="90">
-                            </textarea>
-                        <br>
-                        <label for="submit"></label><br>
-                        <input type="submit" value="submit" id="submit" name="submit">
-                        <br>
-                        </form>
-                    </div>
-                </div>
+              <p class="submittedreviews">hello</p>
+ 
+              <div id="newreviewbutton">
+                  <button href="#" id="showform">AddReview</button>
+              </div>
+            
+              <form id="newreviewform">
+                 <textarea rows="9" cols="70">
+                 <input type="text" id="coustomerreview" placeholder="your_review_goes_here"  />
+                </textarea>
+            <input type="submit" id="submit" value="submit" />
+                </form> -->
                 <!-- ===============================================reviews end=========================================================== -->
                 <footer>
                     <div class="footer" id="aboutus">
