@@ -99,14 +99,15 @@ margin-top: 15px;
 }
 .week-specials{
     clear: both;
+    background-image: url(https://dm2306files.storage.live.com/y4m4wcMbFuPYxr0ixFa9NlojUAQdjD0rbfamapuBMnqnpJ6s-EbYpd_P77WqjbCZ0QXvl0xr7XfDYXcYrVTg4lEHZquHCaMJ-YWNtA52Q771dVsF7hJKN0mzbN1U_s8reSW7wKX53i9eKyz26JkyYTFxegM2s3L35KkeeEMPaXTg9vnz7SzX4ZgmAr2dotby0IF?width=1920&height=1275&cropmode=none);
+
 }
 .weekspecial{
     border: solid 2px black;
     /* height: 550px; */
     /* width: 900px; */
-    width: 97%;
+    width: 100%;
     height: 450px;
-    margin-left: 25px;
 }
 
 .cake{
