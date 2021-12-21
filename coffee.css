@@ -101,6 +101,7 @@ margin-top: 15px;
     height: 300px;
     float: right;
     position: relative;
+    box-shadow:  5px 0px 8px 0px ;
 }
 .week-specials{
     clear: both;
@@ -186,6 +187,9 @@ margin-top: 15px;
     zoom: 1.25;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
- @media screen {
-     
- }
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }
