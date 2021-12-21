@@ -33,6 +33,7 @@ text-align: center;
     padding: 20px;
     text-decoration: none;
     display: inline;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navbar a:hover{
     color: deeppink;
@@ -69,7 +70,7 @@ margin-top: 15px;
     height: 150px;
     position: relative;
 }
-
+/* coffee */
 .coffeimg{
     width: 300px;
     height: 240px;
@@ -114,7 +115,7 @@ margin-top: 15px;
     height: 450px;
     box-shadow:  5px 0px 8px 0px ;
 }
-
+/* cakes */
 .cake{
     width: 300px;
     height: 250px;
@@ -132,6 +133,23 @@ margin-top: 15px;
     float: left;
     border: none;
 }
+/* ------------------ */
+/* shakes */
+.shakes{
+    width: 300px;
+    height: 250px;
+   position: relative;
+   box-shadow:  5px 0px 8px 0px ;
+}
+.shakes1{
+    border: solid 2px black;
+    height: 500px;
+    width: 350px;
+    padding-right: 100px;
+    float: left;
+    border: none;
+}
+/* ------------ */
 .coustomer-reviews{
     clear: both;
     position: relative;
