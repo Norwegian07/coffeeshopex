@@ -195,7 +195,7 @@ margin-top: 15px;
         position: relative;
     }
     .menu1,.menu2,.menu3,.menu4,.menu5,.menu6{
-        height: 1000px;
+        height: 700px;
         width: 350px;
         float: left;
         border: solid 2px black;
@@ -203,7 +203,7 @@ margin-top: 15px;
         border: none; 
     }
     .shakes1{
-        height: 1000px;
+        height: 700px;
         width: 350px;
         float: left;
         border: solid 2px black;
