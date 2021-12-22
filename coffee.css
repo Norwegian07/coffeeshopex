@@ -66,8 +66,8 @@ margin-top: 15px;
 
 
 .coffeelogo{
-    width: 280px;
-    height: 150px;
+    width: 340px;
+    height: 190px;
     position: relative;
 }
 /* coffee */
@@ -80,7 +80,7 @@ margin-top: 15px;
 .menu1,.menu2,.menu3{
     float: left;
     border: solid 2px black;
-    height: 450px;
+    height: 500px;
     width: 350px;
     padding-right: 100px;
     border: none;
@@ -91,7 +91,7 @@ margin-top: 15px;
 .menu4,.menu5,.menu6{
     float: left;
     border: solid 2px black;
-    height: 450px;
+    height: 500px;
     width: 350px;
     padding-right: 100px;
     border: none; 
@@ -144,12 +144,13 @@ margin-top: 15px;
 }
 .shakes1{
     border: solid 2px black;
-    height: 500px;
+    height: 550px;
     width: 350px;
     padding-right: 100px;
     float: left;
     border: none;
 }
+
 /* ------------ */
 .coustomer-reviews{
     clear: both;
@@ -171,7 +172,7 @@ margin-top: 15px;
 .footer{
     background-color: black;
     height: 300px;
-    margin-top: 25px;
+    margin-top: 50px;
     font-size: 22px;
     text-align: center;
     clear: both;
@@ -187,3 +188,10 @@ margin-top: 15px;
     zoom: 1.25;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+@media screen and (max-width: 1000px) {
+    .coffeelogo{
+        width: 280px;
+        height: 150px;
+        position: relative;
+    }
+  }
